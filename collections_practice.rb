@@ -12,3 +12,12 @@ def contain_a(array)
     el.include?("a")
   end
 end
+
+def begins_with_r(array)
+  array.each do |word|
+    if !word.match(/^wa/)
+      return false
+    end
+  end
+  true
+end
