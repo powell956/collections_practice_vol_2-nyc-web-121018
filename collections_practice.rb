@@ -13,7 +13,7 @@ def contain_a(array)
   end
 end
 
-def begins_with_r(array)
+def first_wa(array)
   array.each do |word|
     if !word.match(/^wa/)
       return false
