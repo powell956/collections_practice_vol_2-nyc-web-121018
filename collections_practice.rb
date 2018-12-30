@@ -28,3 +28,15 @@ def remove_non_strings(array)
     end
   end
 end
+
+def merge_data(arg1, arg2)
+
+end
+
+def find_cool(arg)
+
+end
+
+def organize_schools(schools)
+
+end
