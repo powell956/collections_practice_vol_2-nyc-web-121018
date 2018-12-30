@@ -26,4 +26,5 @@ def remove_non_strings(array)
     if !(el.is_a String)
       array.delete(el)
     end
+  end
 end
