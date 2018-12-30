@@ -15,9 +15,8 @@ end
 
 def first_wa(array)
   array.each do |word|
-    if !word.match(/^wa/)
-      return false
+    if word.match(/^wa/)
+      return word
     end
   end
-  true
 end
