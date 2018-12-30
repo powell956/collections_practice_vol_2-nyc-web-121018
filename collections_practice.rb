@@ -8,5 +8,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.map.select.include?("a")
+  array.map!.select do |el|
+    el.include?("a")
+  end
 end
